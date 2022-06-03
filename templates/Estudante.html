@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/estudante.css') }}">
+  <title>STIK</title>
+</head>
+<body>
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+  <div class = "header">
+    <a class="sair" href="{{ url_for('painel')}}">
+      <ion-icon name="chevron-back-circle-outline" size="large" left= 100px;></ion-icon>
+      <span class="sair">Sair</span>
+    </a>
+
+    <div id = "Imagens">
+      <div class="logoStick"></div>
+      <div class="nameStick"></div>
+  </div>
+  </div>
+</body>
+</html>

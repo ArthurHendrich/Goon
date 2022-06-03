@@ -62,7 +62,8 @@ def register():
             if i in User.query.filter_by(email=request.form["email"]).first():
                 print("Esse usuario já existe")
             else:
-                user.password = generate_password_hash(request.form["password"])
+                user.password = generate_password_hash(
+                    request.form["password"])
                 db.session.add(user)
                 db.session.commit()
                 return redirect(url_for("index"))
@@ -107,15 +108,23 @@ def delete(id):
 
     return redirect("/")
 
+
 @app.route("/painel")
 def painel():
     users = User.query.all()
     return render_template("painel.html", users=users)
 
+
 @app.route("/profissao")
-def profissao   ():
+def profissao():
     users = User.query.all()
     return render_template("profissao.html", users=users)
+
+
+@app.route("/home")
+def estudante():
+    users = User.query.all()  # Select * from users in DB
+    return render_template("Estudante.html", users=users)
 
 
 if __name__ == "__main__":

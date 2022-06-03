@@ -1,5 +1,11 @@
 FLASK
 FLASK-SQLALCHEMY
 FLASK-LOGIN==0.4.1
+FLASK-JWT-EXTENDED
+Flask-Mail
+FLASK-RESTFUL
+PYJWT
+Flask-JWT
+mail-service
 Werkzeug==2.0.0
 Jinja2==3.0.3

@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  max-width: 1440px;
+}
+
+@media screen and (max-width: 768px) {
+  section, aside {
+      width: 100%;
+      padding: 0px;
+  }
+
+  body {
+      width: 100%;
+      padding: 0px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+      float: none;
+      text-align: center;
+  }
+}
+
+body {
+  font-size: 14px;
+  background: url("../images/v752_1963.png")
+}
+
+
+.header{
+  background-color: rgba(133,18,174,1);
+  position: absolute;
+  visibility: inherit;
+}
+
+.sair {
+  color: #fff;
+  position: absolute;
+  font-family: Heebo;
+  top: 4px;
+  left: 20px;
+  font-weight: Medium;
+  font-size: 30px;
+  visibility: inherit;
+}
+
+.logoStick {
+  width: 100px;
+  height: 100px;
+  background: url("../images/v472_2343.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: -20px;
+  left: 500px;
+  overflow: hidden;
+}
+
+
+
+
+.nameStick {
+  width: 91px;
+  height: 50px;
+  background: url("../images/v472_2342.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 5px;
+  left: 580px;
+  overflow: hidden;
+}
