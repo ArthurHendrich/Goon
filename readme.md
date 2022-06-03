@@ -1,12 +1,12 @@
 # STIK
 
 <p float="left">
-  <img src="./assets/images/homepage.png" width="503" height="300" /> 
-  <img src="./assets/images/loginpage.png" width="503" height="300" />
+  <img src="./assets/images/homepage.png" width="300" height="300" /> 
+  <img src="./assets/images/loginpage.png" width="300" height="300" />
 </p>
 <p float="left">
-  <img src="./assets/images/registerpage.png" width="503" height="300" /> 
-  <img src="./assets/images/registerpage2.png" width="503" height="300" />
+  <img src="./assets/images/registerpage.png" width="300" height="300" /> 
+  <img src="./assets/images/registerpage2.png" width="300" height="300" />
 </p>
 
 if you want to take a look on all screens of the App, the are [Here](https://www.figma.com/proto/wanIcTDh5GAJXAiSye6eI7/Projeto-1-Goon-Website-Stik?node-id=0%3A1)
