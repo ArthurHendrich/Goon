@@ -1,8 +1,8 @@
 # STIK
 
 <p float="left">
-  <img src="./assets/images/homepage.png" width="370" height="170" /> 
-  <img src="./assets/images/loginpage.png" width="370" height="170" />
+  <img src="./assets/images/homepage.png" width="400" height="170" /> 
+  <img src="./assets/images/loginpage.png" width="400" height="170" />
 </p>
 <p float="left">
   <img src="./assets/images/registerpage.png" width="330" height="200" /> 
